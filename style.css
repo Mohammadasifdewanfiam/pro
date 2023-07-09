@@ -1,11 +1,12 @@
 
 /* for all related */
 *{font-family: 'Open Sans', sans-serif;
+    
 }
 /* for nav part */
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 } 
 /* for mary name  */
@@ -13,9 +14,8 @@ nav{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    padding-right: 170px;
    
-    
-
 }
     
     /* for that orrange color */
@@ -28,7 +28,7 @@ nav > ul {
 }
 .apple{
     list-style: none;
-    margin-right: 50px;
+    padding-right: 50px;
    
 }
 .applee{
@@ -47,4 +47,15 @@ nav > ul {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner-cointainer{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items:center;
+}
+.profile-pic{
+    width: 500px;
 }
