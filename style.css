@@ -11,6 +11,9 @@ body{
     font-weight: 700;
     padding: 18px 35px;
 }
+main section{
+    margin-top: 130px;
+}
 
 /* nav related style */
 nav{
@@ -86,7 +89,7 @@ margin-bottom: 30px;
 }
 /* main section style */
 /* about */
-.section-title,.section-info{
+.section-title,.section-info,.sec-resume{
 color: #181818;
 text-align: center;
 font-size: 35px;
@@ -133,4 +136,62 @@ font-weight: 600;
 .section-paragraph{
     padding: 30px 150px;
 
+}
+/* skill related */
+.skill-cointainer{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+}
+.skill-para{
+color: #757575;
+font-size: 16px;
+font-weight: 400;
+
+}
+/* resume related */
+.resume-cointainer{
+   
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.resume-names{
+color: #474747;
+font-size: 30px;
+font-weight: 700;
+
+
+}
+
+
+
+.resume-title{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-edu{
+color: var(--dark-03, #757575);
+font-size: 20px;
+font-weight: 600;
+}
+.resume-discription{
+ color:  #757575;
+font-size: 16px;
+font-weight: 400;
+}
+.resume-cointainer hr{
+    margin: 30px;
+}
+.buttoncv{
+    text-align: center;
+    margin-top: 50px;
 }
