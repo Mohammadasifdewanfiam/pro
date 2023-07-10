@@ -194,4 +194,25 @@ font-weight: 400;
 .buttoncv{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 80px 140px;
+    gap: 40px;
+  
+}
+.contact input[type="text"],textarea,input[type="email"]{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+background: var(--white-color, #FFF);
+border: 0;
+width: 100%;
+
 }
